@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXTRA-TAXI</title>
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="container-header"></div>
+    <div class=" animate__animated animate__flipInX">
+        <div class="logo-placeholder">
+            <img src="./img/logo.jpg" alt="" class="logo">
+            <div class="main-text"><h1>EXTRA-TAXI</h1></div>
+        </div>
+        <div class="info">
+            <div class="email">extra-taxi@example.com</div>
+            <div class="number">8-800-000-00-00</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-content">
+        <div class="car">
+            <div class=" animate__animated animate__fadeInLeftBig"><img src="./img/taxi.png" alt="" class="car-image"></div>
+            <br>
+            <div class="animate__bounceIn">
+                <div class="line"></div>
+                <marquee  scrollamount="20" direction="left"> <h1 class="text">- - -BEST-TAXI-IN-YOUR-CITY- - -</h1></marquee>
+                <div class="line"></div>
+                <br>
+                <h1 class="super-text">WHY YOU CHOOSE US?</h1>
+                <div class="super-text" id="button" onclick="show_points()">+</div>
+            </div>
+            <br>
+            <br>
+            <div class="list">
+                <div class="points">
+                    <li class="point">- Small prices</li>
+                    <br>
+                    <li class="point">- Professional drivers </li>
+                    <br>
+                    <li class="point">- Modern cars</li>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="car-list">
+                <div class="cars">
+                    <div class="">
+                        <marquee direction="right" scrollamount="20"><div class="super-text" id="run">OUR CARS OUR CARS OUR CARS OUR CARS </div></marquee>
+                    </div>
+                    <br>
+                    <div class="wow animate__bounceIn animate__fadeInDown">
+                            <img src="./img/kia.png" alt="" class="car-item">
+                            <br>
+                            <div class="super-text">KIA CERRATO</div>    
+                    </div>
+    
+                    <div class="wow animate__bounceIn animate__fadeInDown">
+                        <img src="./img/renault.png" alt="" class="car-item">
+                        <br>
+                        <div class="super-text">RENAULT SANDERO</div>  
+                    </div>
+                    <div class="empty"></div>
+                    <div class="wow animate__bounceIn animate__fadeInDown">
+                        <img src="./img/toyota.png" alt="" class="car-item" id="last-car">
+                        <br>
+                        <div class="super-text">TOYOTA PRIUS</div>  
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <marquee direction="left" scrollamount="20" style="margin-top: 5rem;"><div class="super-text" id="run">OUR CARS OUR CARS OUR CARS OUR CARS </div></marquee>
+            <br>
+            <br>
+            <div class="wow animate__animated animate__fadeInLeftBig" style="margin-top: 10rem;">
+                <div class="super-text">WHERE IS OUR OFFICE?</div>
+                <br>
+                <br>
+                <div style="position:relative;overflow:hidden; text-align: center;"><a href="https://yandex.ru/maps/202/new-york/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Нью‑Йорк</a><a href="https://yandex.ru/maps/202/new-york/?ll=-73.995554%2C40.712730&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D-74.003%252C40.715%26spn%3D0.560%252C0.423%26text%3DUnited%2520States%2520of%2520America%252C%2520New%2520York%252C%2520New%2520York&source=wizbiz_new_map_single&utm_medium=mapframe&utm_source=maps&z=14.75" style="color:#eee;font-size:12px;position:absolute;top:14px;">Нью-Йорк — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUaRJvm3D" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+            <marquee direction="right" scrollamount="20" style="margin-top: 10rem;"><div class="super-text" id="run">CONTACT INFORMATION CONTACT INFORMATION CONTACT INFORMATION</div></marquee>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="">
+                <div class="form">
+                    <div class="contact-form">
+                        <form action="" method="POST">
+                            <input type="text" name="name" id="" class="inp" placeholder="Enter your Name">
+                            <br>
+                            <input type="text" name="mail" id="" class="inp" placeholder="Enter your Email">
+                            <br>
+                            <input type="text" name="phone" id="" class="inp" placeholder="Enter your Phone">
+                            <br>
+                            <br>
+                            <div class="button">SEND</div>
+                            <br>
+                            <br>
+                            
+                        </form>
+                </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="info-bottom">
+                <div class="bottom-el">extra-taxi@example.com</div>
+                <a href="https://vk.com/livernangel" class="bottom-el" id="author">Develop by</a>
+                <div class="bottom-el">8-800-000-00-00</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-bottom">
+    </div>
+</div>
+<script src="wow.min.js"></script>
+<script src="script.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>

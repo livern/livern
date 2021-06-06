@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+*{
+    font-family: 'Montserrat',sans-serif;
+      /**
+     * Для эксплорера
+     */
+     -ms-user-select: none;
+
+     /**
+      * Для мозилы
+      */
+     -moz-user-select: none;
+ 
+     /**
+      * Для конкверора
+      */
+     -khtml-user-select: none;
+ 
+     /**
+      * Для Сафари и Хрома
+      */
+     -webkit-user-select: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 450px;
+    overflow-x: hidden;
+    background-color: orange;
+  
+}
+
+.container-header{
+    background: url('./img/header-bg.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+}
+
+.line{
+    width: 100%;
+    height: 1rem;
+    background-color: orange;
+}
+
+#button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+
+.container{
+    width: 1400px;
+    box-shadow: 0 0 0.5rem gray;
+    margin: 0 auto;
+    background-color: #f7ad00;
+
+}
+
+
+.car-list{
+    display: flex;
+    justify-content: center;
+}
+.car-item{
+   width: 800px;
+   margin-top: 7rem;
+   transition: 0.3s;
+}
+
+.main-text{
+    color: #2b2a29;
+    margin-top: -1rem;
+    padding: 15px 30px;
+    font-size: 36px;
+}
+
+
+
+
+.empty{
+    margin-top: 9rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    color: #2b2a29;
+    margin: 0 auto;
+}
+.logo-placeholder{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    justify-content: center;
+}
+
+.number{
+    display: flex;
+    justify-content:center;
+}
+
+.car{
+    margin-top: 5rem;
+}
+
+.inp{
+    padding: 15px 30px;
+    width: 400px;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    background-color: orange;
+    border-style: solid;
+    color: #2b2a29;
+    border-width: 2px;
+    border-color:#f7ad00;
+}
+
+.info-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-el{
+    padding: 15px 30px;
+    color: #2b2a29;
+    text-decoration: none;
+  
+}
+
+.bottom-el:hover{
+    text-decoration: underline;
+}
+.button{
+    width: 400px;
+    color:#2b2a29;
+    border-width: 2px;
+    background-color: #f7ad00;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 2px;
+    border-color:#2b2a29;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    justify-content: center;
+    padding: 15px 30px;
+}
+.button:hover{
+    background-color: #2b2a29;
+    color: orange;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-size: 46px;
+    color: rgb(230, 152, 7);
+    font-weight: 700;
+    display: flex;
+    letter-spacing: 3px;
+    justify-content: center;
+    font-size: bold;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    padding: 15px 30px;
+}
+
+.car-image{
+    display: flex;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.point{
+    list-style-type: none;
+    font-size: 36px;
+    color: #2b2a29;
+}
+
+#button{
+    transition: 0.3s;
+}
+
+.move-to-close{
+    transform: rotate(45deg);
+    
+}
+.list{
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.visible{
+    visibility: visible;
+    opacity: 100;
+}
+.super-text{
+    font-size: 48px;
+    display: flex;
+    color: #2b2a29;
+    justify-content: center;
+}
+@media(max-width:1400px){
+    .container{
+        width: 1200px;
+    }
+
+}
+
+@media(max-width:1200px){
+    .container{
+        width: 1000px;
+    }
+}
+
+@media(max-width:1000px){
+    .container{
+        width: 800px;
+        min-height: 2000px;
+    }
+    .text{
+        font-size:36px;
+    }
+}
+
+
+
+
